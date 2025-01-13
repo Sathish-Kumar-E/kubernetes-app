@@ -3,7 +3,7 @@
 Containerized a SpringBoot REST API with Docker and orchestrated its deployment on Minikube Kubernetes cluster, implementing pod management, service creation, and deployment strategies for scalability.
 
 
-## I have developed a Spring Boot project with a Dockerfile. From the project directory, run the commands below in the command prompt.
+I have developed a Spring Boot project with a Dockerfile. From the project directory, run the commands below in the command prompt.
 
 ### minikube docker-env
 
