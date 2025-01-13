@@ -11,8 +11,4 @@ This command shows the environment variables needed to connect your terminal to 
 
 ### docker build -t kubernetes-springboot-app-image:1.0.0 .
 
-This command builds a Docker image for your Spring Boot application and tags it with the name kubernetes-springboot-app-image and version 1.0.0. Here's what each part does:
-docker build: This is the Docker command used to build an image.
--t kubernetes-springboot-app-image:1.0.0: The -t flag tags the image with a name (kubernetes-springboot-app-image) and a version (1.0.0). This helps identify and manage the image, especially when pushing it to a registry like Docker Hub or when deploying it in Kubernetes.
-.: The period represents the build context, meaning Docker will look for the Dockerfile and any other necessary files in the current directory to create the image.
-In summary, this command creates a Docker image named kubernetes-springboot-app-image with the version tag 1.0.0 from the current directory. This image can then be used for deployment, for example, in a Kubernetes cluster.
+This command, docker build -t kubernetes-springboot-app-image:1.0.0 ., builds a Docker image for your Spring Boot application. The -t flag assigns the name kubernetes-springboot-app-image and version 1.0.0 to the image, making it easy to identify later. The . tells Docker to use the current directory as the location where it should look for the Dockerfile and other necessary files to create the image. After running this command, you’ll have a Docker image that can be used for deploying your application, for example, on Kubernetes.
