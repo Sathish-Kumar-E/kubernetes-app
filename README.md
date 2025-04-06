@@ -1,6 +1,6 @@
 # Containerized SpringBoot Application Deployment on Kubernetes using Minikube
 
-## minikube start --driver=docker 
+### minikube start --driver=docker 
 
 ## minikube status
 
