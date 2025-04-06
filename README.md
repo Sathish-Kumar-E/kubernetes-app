@@ -2,43 +2,42 @@
 
 ### minikube start --driver=docker 
 
-## minikube status
+### minikube status
 
-## kubectl cluster-info
+### kubectl cluster-info
 
-## kubectl get node
+### kubectl get node
 
-## minikube docker-env
+### minikube docker-env
 
-## docker images
+### docker images
 
-## docker build -t kubernetes-app:1.0 .
+### docker build -t kubernetes-app:1.0 .
 
-## docker images
+### docker images
 
-## kubectl create deployment kubernetes-app-deployment --image=kubernetes-app:1.0 --port=8080
+### kubectl create deployment kubernetes-app-deployment --image=kubernetes-app:1.0 --port=8080
 
-## kubectl get deployment
+### kubectl get deployment
 
-## kubectl describe deployment kubernetes-app-deployment
+### kubectl describe deployment kubernetes-app-deployment
 
-## kubectl get pods
+### kubectl get pods
 
-## kubectl logs kubernetes-app-deployment-bbffb944c-z6zbp
+### kubectl logs kubernetes-app-deployment-bbffb944c-z6zbp
 
-## kubectl expose deployment kubernetes-app-deployment --type=NodePort
+### kubectl expose deployment kubernetes-app-deployment --type=NodePort
 
-## kubectl get service
+### kubectl get service
 
-## minikube service kubernetes-app-deployment --url
+### minikube service kubernetes-app-deployment --url
 
-## minikube dashboard
+### minikube dashboard
 
-## kubectl delete service kubernetes-app-deployment
+### kubectl delete service kubernetes-app-deployment
 
-## kubectl delete deployment kubernetes-app-deployment
+### kubectl delete deployment kubernetes-app-deployment
 
-## minikube stop
+### minikube stop
 
-## minikube delete 
-
+### minikube delete 
