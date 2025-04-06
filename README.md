@@ -2,6 +2,8 @@
 
 ### minikube start --driver=docker 
 
+![image alt](https://github.com/Sathish-Kumar-E/kubernetes-app/blob/79f6719f199f4bc9c27a89e765491225589effc8/pictures/Picture_01.jpg)
+
 ### minikube status
 
 ### kubectl cluster-info
